@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .icon {
+    margin: 0 !important;
+    cursor: pointer;
+  }
+  
+  .down {
+    position: relative;
+    top: 0.5px;
+  }
+  
+  #app-container {
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .editor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timer > h2 {
+    margin: 0;
+  }
+  
+  .timer-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .editor-time {
+    width: 45px;
+  }
+  
+  #break-editor {
+    margin-right: 20px;
+  }
+  
+  #session-editor {
+    margin-left: 20px;
+  }
+  
+  #active-timer {
+    width: 80% !important;
+    margin-top: 20px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+  }
+  
+  #time-left {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  #active-timer-buttons {
+    width: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+  
+  #start_stop {
+    display: flex;
+    margin-right: 8px;
+  }
+  #reset {
+    margin-left: 8px;
+  }
